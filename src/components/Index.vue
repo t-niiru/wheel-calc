@@ -1,6 +1,6 @@
 <template>
   <div class="index columns is-mobile is-centered">
-    <div class="column is-half">
+    <div class="column">
       <h1 class="title">ホイール&タイヤ計算</h1>
       <router-link to="/offset" class="button">オフセット計算</router-link>
       <router-link to="/tiresize" class="button">タイヤサイズ計算</router-link>
@@ -33,9 +33,6 @@ a {
     right: 0;
     background-color: rgba(0,0,0,0.5);
   }
-}
-.columns{
-  margin: 0;
 }
 .column{
   z-index: 1;
