@@ -4,6 +4,14 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+/* ============
+ * SCSS
+ * ============
+ */
+import './assets/stylesheets/style.scss'
+
+import 'bulma/css/bulma.css'
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

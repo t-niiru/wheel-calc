@@ -1,8 +1,10 @@
 <template>
-  <div class="hello">
-    <h1>ホイール&タイヤ計算</h1>
-    <router-link to="/offset">オフセット計算</router-link>
-    <router-link to="/tiresize">タイヤサイズ計算</router-link>
+  <div class="index columns is-mobile is-centered">
+    <div class="column">
+      <h1 class="title">ホイール&タイヤ計算</h1>
+      <router-link to="/offset" class="button">オフセット計算</router-link>
+      <router-link to="/tiresize" class="button">タイヤサイズ計算</router-link>
+    </div>
   </div>
 </template>
 
@@ -12,20 +14,32 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
+<style lang="scss" scoped>
 a {
   color: #42b983;
 }
+.index{
+  position: relative;
+  width: 100%;
+  height: calc(100% - 168px);
+  background: url('../assets/images/fda0f5aae99faddc4e9116d2395dcaff_l.jpg') no-repeat;
+  background-size: cover;
+  &::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+  }
+}
+.column{
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
 </style>
