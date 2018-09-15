@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="content has-text-centered">
-      Garage-216.com
+      <router-link to="/">&copy; Garage-216.com</router-link>
     </div>
   </footer>
 </template>
@@ -13,8 +13,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  footer{
+footer{
+  color: #fff;
+  background-color: #484848;
+  a{
     color: #fff;
-    background-color: #484848;
   }
+}
 </style>
