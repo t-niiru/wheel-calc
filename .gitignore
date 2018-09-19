@@ -1,4 +1,5 @@
 .DS_Store
+.commit_template
 node_modules/
 npm-debug.log*
 yarn-debug.log*
