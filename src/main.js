@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueAnalytics from 'vue-analytics'
 
 /* ============
  * SCSS
@@ -13,6 +14,10 @@ import './assets/stylesheets/style.scss'
 import 'bulma/css/bulma.css'
 
 Vue.config.productionTip = false
+
+Vue.use(VueAnalytics, {
+  id: 'UA-60693399-3'
+})
 
 /* eslint-disable no-new */
 new Vue({
