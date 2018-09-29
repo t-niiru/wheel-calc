@@ -17,6 +17,10 @@ export default {
       OffsetPage: true,
       TiresizePage: true
     }
+  },
+  created () {
+    var getpath = location.pathname
+    console.log(getpath)
   }
 }
 </script>
