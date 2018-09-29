@@ -21,8 +21,8 @@ a {
 .index{
   position: relative;
   width: 100%;
-  height: calc(100% - 168px);
-  background: url('../../static/images/fda0f5aae99faddc4e9116d2395dcaff_l.jpg') no-repeat;
+  height: calc(100% - 212px);
+  background: url('/static/images/fda0f5aae99faddc4e9116d2395dcaff_l.jpg') no-repeat;
   background-size: cover;
   &::before{
     content: '';
