@@ -2,8 +2,8 @@
   <div class="index columns is-mobile is-centered">
     <div class="column">
       <h1 class="title">ホイール&タイヤ計算</h1>
-      <router-link to="/offset" class="button">オフセット計算</router-link>
-      <router-link to="/tiresize" class="button">タイヤサイズ計算</router-link>
+      <a href="/offset" class="button">オフセット計算</a>
+      <a href="/tiresize" class="button">タイヤサイズ計算</a>
     </div>
   </div>
 </template>

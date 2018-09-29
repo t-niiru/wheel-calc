@@ -3,18 +3,18 @@
     <nav>
       <ul>
         <li>
-          <router-link to="/">home</router-link>
+          <a href="/">home</a>
         </li>
         <li>
-          <router-link to="/offSet">OffSet</router-link>
+          <a href="/offSet">OffSet</a>
         </li>
         <li>
-          <router-link to="/tiresize">TireSize</router-link>
+          <a href="/tiresize">TireSize</a>
         </li>
       </ul>
     </nav>
     <div class="content has-text-centered">
-      <router-link to="/">&copy; Garage-216.com</router-link>
+      <a href="/">&copy; Garage-216.com</a>
     </div>
   </footer>
 </template>
