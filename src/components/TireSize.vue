@@ -289,7 +289,7 @@ a {
   width: 100%;
   height: 100%;
   color: #fff;
-  background: url('/static/images/1fd88b5418cb550d7bed271115d8721b_s.jpg') no-repeat;
+  background: url('../../static/images/1fd88b5418cb550d7bed271115d8721b_s.jpg') no-repeat;
   background-size: cover;
   &::before{
     content: '';

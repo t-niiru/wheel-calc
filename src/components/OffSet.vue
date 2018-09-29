@@ -178,7 +178,7 @@ export default {
   width: 100%;
   height: 100%;
   color: #fff;
-  background: url('/static/images/fdb951d0db96d7ff0b707cf90c1d11e4_s.jpg') no-repeat;
+  background: url('../../static/images/fdb951d0db96d7ff0b707cf90c1d11e4_s.jpg') no-repeat;
   background-size: cover;
   &::before{
     content: '';
